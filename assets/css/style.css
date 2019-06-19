@@ -1,0 +1,77 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../../assets/images/cleo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 24px;
+    color: rgb(219, 213, 213);
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.containter {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+    color: black;
+}
+
+#space {
+    margin-top: 15px;
+}
+
+.footer {
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background: rgb(105, 90, 245);
+    text-align: center;
+    font-size: 30px;
+    color: rgb(196, 199, 228);
+    padding: 1rem;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 980px) {
+    #psychic-image {
+        margin-left: 175px;
+    }
+    #psychic {
+        margin-left: 165px;
+    }
+    #psychics-image {
+        margin-right: 180px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #psychic {
+        margin-left: 170px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    h2 {
+        margin-left: 70px;
+    }
+    #psychic-image {
+        margin-left: 150px;
+    }
+    #psychic {
+        margin-left: 145px;
+    }
+    #psychics-image {
+        margin-right: 100px;
+    }
+}
